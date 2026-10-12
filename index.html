@@ -1,14 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f9fc">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta
     name="description"
-    content="Madhiyazagan Jegadeeshwaran's QA Automation portfolio featuring Playwright, TypeScript, UI automation and API testing projects."
+    content="Madhiyazagan Jegadeeshwaran's QA Automation portfolio featuring Playwright, TypeScript, UI testing, API testing and five hands-on automation projects."
   >
+
+  <meta name="theme-color" content="#0b1020">
 
   <title>Madhiyazagan Jegadeeshwaran | QA Automation Portfolio</title>
 
@@ -16,143 +17,190 @@
 </head>
 
 <body>
+
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <!-- Header -->
   <header class="site-header">
-    <div class="container header-inner">
+    <nav class="navbar container" aria-label="Main navigation">
 
-      <a
-        class="brand"
-        href="#home"
-        aria-label="Madhiyazagan Jegadeeshwaran, home"
-      >
+      <a class="brand" href="#home">
         M. Jegadeeshwaran
       </a>
 
-      <nav class="main-nav" aria-label="Main navigation">
+      <div class="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-      </nav>
+      </div>
 
-    </div>
+    </nav>
   </header>
 
   <main id="main">
 
-    <!-- Hero Section -->
-    <section
-      class="hero section"
-      id="home"
-      aria-labelledby="hero-title"
-    >
-      <div class="container hero-content">
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-container container">
 
-        <p class="eyebrow">
-          QA Automation Portfolio
-          <span aria-hidden="true">·</span>
-          Singapore
-        </p>
+        <div class="hero-content">
 
-        <h1 id="hero-title">
-          Madhiyazagan Jegadeeshwaran
-        </h1>
+          <p class="hero-eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            QA AUTOMATION PORTFOLIO
+            <span class="eyebrow-divider">·</span>
+            Singapore
+          </p>
 
-        <p class="hero-role">
-          Aspiring QA Automation Engineer |
-          Playwright |
-          TypeScript |
-          API Testing
-        </p>
+          <h1>
+            Madhiyazagan
+            <span class="hero-name-highlight">Jegadeeshwaran</span>
+          </h1>
 
-        <p class="hero-goal">
-          Seeking a Junior QA Automation Engineer role in Singapore.
-        </p>
+          <h2 class="hero-role">
+            Aspiring QA Automation Engineer
+          </h2>
 
-        <p class="hero-intro">
-          Civil Engineering graduate transitioning into QA Automation,
-          with hands-on practice building UI and API automation projects
-          using Playwright and TypeScript.
-        </p>
+          <p class="hero-description">
+            Civil Engineering graduate transitioning into software testing,
+            with hands-on practice building UI and API automation projects
+            using Playwright and TypeScript.
+          </p>
 
-        <div class="hero-actions">
+          <div class="hero-badges" aria-label="Key technologies">
+            <span class="tech-badge">Playwright</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">API Testing</span>
+          </div>
 
-          <a class="button button-primary" href="#projects">
-            View Projects
-          </a>
+          <p class="hero-goal">
+            Seeking a Junior QA Automation Engineer opportunity in Singapore.
+          </p>
 
-          <a
-            class="button button-secondary"
-            href="https://github.com/jegadeeshwaran-qa"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub Profile
-            <span class="sr-only">(opens in a new tab)</span>
-          </a>
+          <div class="hero-actions">
 
-          <a class="button button-secondary" href="#contact">
-            Contact Me
-          </a>
+            <a class="button button-primary" href="#projects">
+              View Projects
+              <span aria-hidden="true">↗</span>
+            </a>
 
+            <a
+              class="button button-secondary"
+              href="https://github.com/jegadeeshwaran-qa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Profile
+              <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="button button-text" href="#contact">
+              Contact Me
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="hero-side" aria-label="Portfolio summary">
+
+          <div class="hero-card">
+
+            <div class="hero-card-top">
+              <span class="hero-card-label">MY FOCUS</span>
+              <span class="hero-card-symbol" aria-hidden="true">&lt;/&gt;</span>
+            </div>
+
+            <div class="focus-item">
+              <span class="focus-number">01</span>
+              <div>
+                <h3>UI Automation</h3>
+                <p>Testing user journeys and application behaviour</p>
+              </div>
+            </div>
+
+            <div class="focus-item">
+              <span class="focus-number">02</span>
+              <div>
+                <h3>API Testing</h3>
+                <p>Checking responses, status codes and data</p>
+              </div>
+            </div>
+
+            <div class="focus-item">
+              <span class="focus-number">03</span>
+              <div>
+                <h3>Test Automation</h3>
+                <p>Writing and running tests with Playwright</p>
+              </div>
+            </div>
+
+            <div class="hero-card-footer">
+              <span class="footer-line" aria-hidden="true"></span>
+              Hands-on learning through personal projects
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <a class="scroll-indicator" href="#about">
+        <span aria-hidden="true">↓</span>
+        Explore my portfolio
+      </a>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+
+        <p class="section-eyebrow">A LITTLE ABOUT ME</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+          <p>
+            I studied Civil Engineering and am now moving into software
+            testing. I have been learning test automation by building UI
+            and API projects with Playwright and TypeScript.
+          </p>
+
+          <p>
+            My projects cover functional testing, API testing and
+            cross-browser automation. I am continuing to develop my
+            technical skills through hands-on practice.
+          </p>
+
+          <p>
+            I do not have professional QA work experience yet. I am looking
+            for a junior QA role in Singapore where I can keep learning
+            and contribute to a team.
+          </p>
         </div>
 
       </div>
     </section>
 
-    <!-- About Section -->
-    <section
-      class="section section-white"
-      id="about"
-      aria-labelledby="about-title"
-    >
-      <div class="container narrow">
-
-        <p class="eyebrow">A little about me</p>
-
-        <h2 id="about-title">About Me</h2>
-
-        <p>
-          I studied Civil Engineering and I am now moving into software
-          testing. I have been learning test automation by building UI
-          and API projects with Playwright and TypeScript, and five of
-          them are on my GitHub. I enjoy functional testing, API testing
-          and automation.
-        </p>
-
-        <p>
-          I do not have professional QA work experience yet. I am looking
-          for a junior QA role in Singapore where I can keep learning
-          and contribute to a team.
-        </p>
-
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section
-      class="section"
-      id="skills"
-      aria-labelledby="skills-title"
-    >
+    <!-- SKILLS SECTION -->
+    <section class="section section-alt" id="skills">
       <div class="container">
 
-        <p class="eyebrow">What I work with</p>
-
-        <h2 id="skills-title">Technical Skills</h2>
+        <p class="section-eyebrow">WHAT I WORK WITH</p>
+        <h2 class="section-title">Technical Skills</h2>
 
         <p class="section-intro">
-          These are the skills I have used in my five projects.
+          These are the skills I have practised in my automation projects.
         </p>
 
         <div class="skills-grid">
 
-          <article class="skill-group">
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
             <h3>Automation</h3>
-
-            <ul class="tag-list">
+            <ul>
               <li>Playwright</li>
               <li>TypeScript</li>
               <li>JavaScript basics</li>
@@ -161,96 +209,99 @@
             </ul>
           </article>
 
-          <article class="skill-group">
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">✓</span>
             <h3>UI Testing</h3>
-
-            <ul class="tag-list">
-              <li>UI Automation</li>
-              <li>Functional Testing</li>
-              <li>Positive and Negative Testing</li>
-              <li>Cross-browser Testing</li>
+            <ul>
+              <li>UI automation</li>
+              <li>Functional testing</li>
+              <li>Positive and negative testing</li>
+              <li>Cross-browser testing</li>
             </ul>
           </article>
 
-          <article class="skill-group">
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">{ }</span>
             <h3>API Testing</h3>
-
-            <ul class="tag-list">
-              <li>REST API Testing</li>
-              <li>GET Requests</li>
-              <li>Status Code Validation</li>
-              <li>JSON Response Validation</li>
-              <li>Pagination Checks</li>
-              <li>Negative API Testing</li>
-              <li>Authentication and Authorization Testing</li>
+            <ul>
+              <li>REST API testing</li>
+              <li>GET requests</li>
+              <li>Status code validation</li>
+              <li>JSON response validation</li>
+              <li>Pagination checks</li>
+              <li>Negative API testing</li>
+              <li>Authentication and authorization</li>
             </ul>
           </article>
 
-          <article class="skill-group">
+          <article class="skill-card">
+            <span class="skill-icon" aria-hidden="true">⚙</span>
             <h3>Tools and CI</h3>
-
-            <ul class="tag-list">
+            <ul>
               <li>Git</li>
               <li>GitHub</li>
               <li>Node.js</li>
               <li>GitHub Actions</li>
-              <li>Jenkins (CI demonstration)</li>
+              <li>Jenkins CI demonstration</li>
             </ul>
           </article>
 
         </div>
+
       </div>
     </section>
 
-    <!-- Projects Section -->
-    <section
-      class="section section-white"
-      id="projects"
-      aria-labelledby="projects-title"
-    >
+    <!-- PROJECTS SECTION -->
+    <section class="section" id="projects">
       <div class="container">
 
-        <p class="eyebrow">Hands-on practice</p>
-
-        <h2 id="projects-title">Projects</h2>
+        <p class="section-eyebrow">HANDS-ON PRACTICE</p>
+        <h2 class="section-title">Projects</h2>
 
         <p class="section-intro">
-          Five automation projects, each in its own GitHub repository.
+          Five personal automation projects using Playwright and TypeScript.
           All five use GitHub Actions for CI. P5 also includes a Jenkins
           CI demonstration.
         </p>
 
-        <div class="project-grid">
+        <div class="projects-grid">
 
-          <!-- Project 1 -->
+          <!-- P1 -->
           <article class="project-card">
-
-            <p class="project-number">P1</p>
+            <div class="project-topline">
+              <span class="project-number">P1</span>
+              <span class="project-type">UI AUTOMATION</span>
+            </div>
 
             <h3>Airline Booking Automation</h3>
 
             <p class="project-description">
-              UI automation of an airline booking flow, from flight
-              search and selection through passenger details, payment
-              and booking confirmation.
+              UI automation of an airline booking flow, from flight search
+              and selection through passenger details, payment and booking
+              confirmation.
             </p>
 
-            <h4>Technologies</h4>
-            <p>Playwright, TypeScript</p>
+            <div class="project-detail">
+              <h4>Technologies</h4>
+              <p>Playwright · TypeScript</p>
+            </div>
 
-            <h4>CI</h4>
-            <p>GitHub Actions</p>
+            <div class="project-detail">
+              <h4>Key Testing Areas</h4>
+              <ul>
+                <li>Flight search and selection</li>
+                <li>Passenger details</li>
+                <li>Payment and booking confirmation</li>
+                <li>Positive and negative testing</li>
+                <li>Page Object Model</li>
+                <li>Cross-browser testing</li>
+              </ul>
+            </div>
 
-            <h4>Key Testing Areas</h4>
-
-            <ul>
-              <li>Flight search and selection</li>
-              <li>Passenger details</li>
-              <li>Payment and booking confirmation</li>
-              <li>Positive and negative testing</li>
-              <li>Page Object Model</li>
-              <li>Cross-browser testing</li>
-            </ul>
+            <p class="project-ci">
+              <span class="ci-dot" aria-hidden="true"></span>
+              CI: GitHub Actions
+            </p>
 
             <a
               class="project-link"
@@ -258,17 +309,16 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              View repository on GitHub: P1 Airline Booking Automation
-              <span aria-hidden="true">↗</span>
-              <span class="sr-only">(opens in a new tab)</span>
+              View Source Code <span aria-hidden="true">↗</span>
             </a>
-
           </article>
 
-          <!-- Project 2 -->
+          <!-- P2 -->
           <article class="project-card">
-
-            <p class="project-number">P2</p>
+            <div class="project-topline">
+              <span class="project-number">P2</span>
+              <span class="project-type">API TESTING</span>
+            </div>
 
             <h3>Banking API Automation</h3>
 
@@ -278,21 +328,26 @@
               and pagination.
             </p>
 
-            <h4>Technologies</h4>
-            <p>Playwright, TypeScript</p>
+            <div class="project-detail">
+              <h4>Technologies</h4>
+              <p>Playwright · TypeScript</p>
+            </div>
 
-            <h4>CI</h4>
-            <p>GitHub Actions</p>
+            <div class="project-detail">
+              <h4>Key Testing Areas</h4>
+              <ul>
+                <li>REST API testing with GET requests</li>
+                <li>Status code validation</li>
+                <li>JSON response validation</li>
+                <li>Account details and pagination</li>
+                <li>Negative API testing</li>
+              </ul>
+            </div>
 
-            <h4>Key Testing Areas</h4>
-
-            <ul>
-              <li>REST API testing with GET requests</li>
-              <li>Status code validation</li>
-              <li>JSON response validation</li>
-              <li>Account details and pagination</li>
-              <li>Negative API testing</li>
-            </ul>
+            <p class="project-ci">
+              <span class="ci-dot" aria-hidden="true"></span>
+              CI: GitHub Actions
+            </p>
 
             <a
               class="project-link"
@@ -300,42 +355,45 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              View repository on GitHub: P2 Banking API Automation
-              <span aria-hidden="true">↗</span>
-              <span class="sr-only">(opens in a new tab)</span>
+              View Source Code <span aria-hidden="true">↗</span>
             </a>
-
           </article>
 
-          <!-- Project 3 -->
+          <!-- P3 -->
           <article class="project-card">
-
-            <p class="project-number">P3</p>
+            <div class="project-topline">
+              <span class="project-number">P3</span>
+              <span class="project-type">UI AUTOMATION</span>
+            </div>
 
             <h3>E-commerce Automation</h3>
 
             <p class="project-description">
-              UI automation of an online shopping flow, covering
-              product search and selection, the shopping cart
-              and checkout.
+              UI automation of an online shopping flow, covering product
+              search and selection, the shopping cart and checkout.
             </p>
 
-            <h4>Technologies</h4>
-            <p>Playwright, TypeScript</p>
+            <div class="project-detail">
+              <h4>Technologies</h4>
+              <p>Playwright · TypeScript</p>
+            </div>
 
-            <h4>CI</h4>
-            <p>GitHub Actions</p>
+            <div class="project-detail">
+              <h4>Key Testing Areas</h4>
+              <ul>
+                <li>Product search and selection</li>
+                <li>Shopping cart</li>
+                <li>Quantity and checkout testing</li>
+                <li>Basic data-driven testing</li>
+                <li>Page Object Model</li>
+                <li>Cross-browser testing</li>
+              </ul>
+            </div>
 
-            <h4>Key Testing Areas</h4>
-
-            <ul>
-              <li>Product search and selection</li>
-              <li>Shopping cart</li>
-              <li>Quantity and checkout testing</li>
-              <li>Basic data-driven testing</li>
-              <li>Page Object Model</li>
-              <li>Cross-browser testing</li>
-            </ul>
+            <p class="project-ci">
+              <span class="ci-dot" aria-hidden="true"></span>
+              CI: GitHub Actions
+            </p>
 
             <a
               class="project-link"
@@ -343,42 +401,45 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              View repository on GitHub: P3 E-commerce Automation
-              <span aria-hidden="true">↗</span>
-              <span class="sr-only">(opens in a new tab)</span>
+              View Source Code <span aria-hidden="true">↗</span>
             </a>
-
           </article>
 
-          <!-- Project 4 -->
+          <!-- P4 -->
           <article class="project-card">
-
-            <p class="project-number">P4</p>
+            <div class="project-topline">
+              <span class="project-number">P4</span>
+              <span class="project-type">UI AUTOMATION</span>
+            </div>
 
             <h3>Food Delivery Automation</h3>
 
             <p class="project-description">
-              UI automation of a food ordering flow, from login and
-              pizza customization to cart, checkout and payment
-              method selection.
+              UI automation of a food ordering flow, from login and pizza
+              customization to cart, checkout and payment method selection.
             </p>
 
-            <h4>Technologies</h4>
-            <p>Playwright, TypeScript</p>
+            <div class="project-detail">
+              <h4>Technologies</h4>
+              <p>Playwright · TypeScript</p>
+            </div>
 
-            <h4>CI</h4>
-            <p>GitHub Actions</p>
+            <div class="project-detail">
+              <h4>Key Testing Areas</h4>
+              <ul>
+                <li>Login testing</li>
+                <li>Pizza selection and customization</li>
+                <li>Cart and checkout</li>
+                <li>Payment method selection</li>
+                <li>Business rule validation</li>
+                <li>Positive and negative testing</li>
+              </ul>
+            </div>
 
-            <h4>Key Testing Areas</h4>
-
-            <ul>
-              <li>Login testing</li>
-              <li>Pizza selection and customization</li>
-              <li>Cart and checkout</li>
-              <li>Payment method selection</li>
-              <li>Business rule validation</li>
-              <li>Positive and negative testing</li>
-            </ul>
+            <p class="project-ci">
+              <span class="ci-dot" aria-hidden="true"></span>
+              CI: GitHub Actions
+            </p>
 
             <a
               class="project-link"
@@ -386,17 +447,16 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              View repository on GitHub: P4 Food Delivery Automation
-              <span aria-hidden="true">↗</span>
-              <span class="sr-only">(opens in a new tab)</span>
+              View Source Code <span aria-hidden="true">↗</span>
             </a>
-
           </article>
 
-          <!-- Project 5 -->
+          <!-- P5 -->
           <article class="project-card">
-
-            <p class="project-number">P5</p>
+            <div class="project-topline">
+              <span class="project-number">P5</span>
+              <span class="project-type">ACCESS CONTROL</span>
+            </div>
 
             <h3>Authentication and Authorization Automation</h3>
 
@@ -406,22 +466,27 @@
               without signing in.
             </p>
 
-            <h4>Technologies</h4>
-            <p>Playwright, TypeScript</p>
+            <div class="project-detail">
+              <h4>Technologies</h4>
+              <p>Playwright · TypeScript</p>
+            </div>
 
-            <h4>CI</h4>
-            <p>GitHub Actions, plus a Jenkins CI demonstration</p>
+            <div class="project-detail">
+              <h4>Key Testing Areas</h4>
+              <ul>
+                <li>Valid and invalid login testing</li>
+                <li>Logout testing</li>
+                <li>Authentication and authorization</li>
+                <li>Protected page validation</li>
+                <li>Page Object Model</li>
+                <li>Cross-browser testing</li>
+              </ul>
+            </div>
 
-            <h4>Key Testing Areas</h4>
-
-            <ul>
-              <li>Valid and invalid login testing</li>
-              <li>Logout testing</li>
-              <li>Authentication and authorization</li>
-              <li>Protected page validation</li>
-              <li>Page Object Model</li>
-              <li>Cross-browser testing</li>
-            </ul>
+            <p class="project-ci">
+              <span class="ci-dot" aria-hidden="true"></span>
+              CI: GitHub Actions and Jenkins demonstration
+            </p>
 
             <a
               class="project-link"
@@ -429,60 +494,47 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              View repository on GitHub: P5 Authentication and Authorization
-              <span aria-hidden="true">↗</span>
-              <span class="sr-only">(opens in a new tab)</span>
+              View Source Code <span aria-hidden="true">↗</span>
             </a>
-
           </article>
 
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section
-      class="section contact-section"
-      id="contact"
-      aria-labelledby="contact-title"
-    >
-      <div class="container narrow">
+    <!-- CONTACT SECTION -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
 
-        <p class="eyebrow">Get in touch</p>
+        <p class="section-eyebrow">GET IN TOUCH</p>
+        <h2 class="section-title">Contact</h2>
 
-        <h2 id="contact-title">Contact</h2>
-
-        <p>
+        <p class="section-intro">
           I am looking for a junior QA Automation role in Singapore.
           You are welcome to get in touch.
         </p>
 
-        <dl class="contact-list">
+        <div class="contact-card">
 
-          <div>
-            <dt>Email:</dt>
-            <dd>
-              <a href="mailto:jegadeeshwaran.qa@gmail.com">
-                jegadeeshwaran.qa@gmail.com
-              </a>
-            </dd>
+          <div class="contact-item">
+            <span class="contact-label">EMAIL</span>
+            <a href="mailto:jegadeeshwaran.qa@gmail.com">
+              jegadeeshwaran.qa@gmail.com
+            </a>
           </div>
 
-          <div>
-            <dt>GitHub:</dt>
-            <dd>
-              <a
-                href="https://github.com/jegadeeshwaran-qa"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                github.com/jegadeeshwaran-qa
-                <span class="sr-only">(opens in a new tab)</span>
-              </a>
-            </dd>
+          <div class="contact-item">
+            <span class="contact-label">GITHUB</span>
+            <a
+              href="https://github.com/jegadeeshwaran-qa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/jegadeeshwaran-qa ↗
+            </a>
           </div>
 
-        </dl>
+        </div>
 
       </div>
     </section>
@@ -492,7 +544,9 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
-      <p>Built by Madhiyazagan Jegadeeshwaran</p>
+      <p>
+        Built by Madhiyazagan Jegadeeshwaran
+      </p>
     </div>
   </footer>
 
